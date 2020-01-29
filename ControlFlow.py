@@ -18,6 +18,7 @@ Program: While Loop nested inside of a For Loop
 
 
 for i in range(4):
+    print("\n")
     print("For Loop " + str(i))
     x = i
     while x >= 0:
