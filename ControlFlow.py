@@ -1,3 +1,4 @@
+
 #Programmer: Allison Tucci
 #Date: 12/16/2019
 #Program: Guess My Number
@@ -19,11 +20,25 @@ while guess != myNumber:
 
 print("\nCongratulations, you guessed my number!\n")
 
+"""
+Programmer: Allison Tucci
+Date: 1.23.2020
+Program: While Loop nested inside of a For Loop
+"""
+
+
+for i in range(4):
+    print("\n")
+    print("For Loop " + str(i))
+    x = i
+    while x >= 0:
+        print("\t While Loop: " + str(x))
+        x = x - 1
+
 
 #Programmer: Allison Tucci
 #Date: 12/19/2019
 #Program: One Through Ten
-
 
 x = 1
 
@@ -34,6 +49,8 @@ x = 1
 while x <= 10:
     print(x)
     x += 1
+
+
 #Programmer: Allison Tucci
 #Date 1.6.20
 #Program: Running Total, Part II
@@ -70,4 +87,14 @@ average = total / how_many_tests
 
 print("\nAverage Test Score: " + str(round(average, 2)))
 
+
+#Programmer: Allison Tucci
+#Date:1.20.20
+#Program: Double For Loop
+for i in range(3):
+    print("Outer For Loop " + str(i))
+    for k in range(4):
+        print("\tInner For Loop " + str(k))
+
+print("\n********************\n")
 
