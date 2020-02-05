@@ -3,7 +3,7 @@
 # Date: 2.3.2020
 
 #Declare Global Variables Here
-# name = input("\nWhat is your name? ")
+name = input("\nWhat is your name? ")
 x = 15
 
 #Create Functions Here
@@ -12,7 +12,6 @@ x = 15
 def greeting():
     print("Hi there " + name + "!")
     print("Very nice to meet you " + name)
-    print(x)
 
 #Functions and Local Variable x
 def printSomething():
@@ -38,12 +37,22 @@ def printMultipleTimes(string, times):
         print(string)
 
 #Call Functions Here
-# greeting()
-# printSomething()
-# print(x)
-#printNumber(28)
-#printNumber(38)
-#printTwoNumbers(23,78)
-#printTwoNumbers(45)
-#printSum(36,29)
+
+print("\n ****Greetings Function****\n")
+greeting()
+
+print("\n ****Print Something Function****\n")
+printSomething()
+
+print("\n ****Print Number Function****\n")
+printNumber(28)
+printNumber(38)
+
+print("\n****Print Two Number Function****\n")
+printTwoNumbers(23,78)
+
+print("\n ****Default Parameter Values Function****\n")
+printSum(36,29)
+
+print("\n ****Print Multiple Times****\n")
 printMultipleTimes("I love computer science", 13)
